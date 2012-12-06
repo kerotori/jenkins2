@@ -3,7 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wakaleo.gameoflife</groupId>
     <artifactId>gameoflife</artifactId>
+<<<<<<< HEAD
     <version>0.9.67-SNAPSHOT</version>
+=======
+    <version>0.8.30-SNAPSHOT</version>
+>>>>>>> tmp
     <packaging>pom</packaging>
     <name>gameoflife</name>
     <url>https://github.com/wakaleo/game-of-life</url>
@@ -17,7 +21,6 @@
         <github.account>wakaleo</github.account>
         <thucydides.version>0.9.22</thucydides.version>
     </properties>
-
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>

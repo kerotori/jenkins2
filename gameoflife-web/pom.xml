@@ -4,7 +4,11 @@
     <parent>
         <artifactId>gameoflife</artifactId>
         <groupId>com.wakaleo.gameoflife</groupId>
+<<<<<<< HEAD
         <version>0.9.67-SNAPSHOT</version>
+=======
+        <version>0.8.30-SNAPSHOT</version>
+>>>>>>> tmp
     </parent>
     <groupId>com.wakaleo.gameoflife</groupId>
     <artifactId>gameoflife-web</artifactId>
@@ -121,24 +125,33 @@
         <dependency>
             <groupId>com.wakaleo.gameoflife</groupId>
             <artifactId>gameoflife-core</artifactId>
+<<<<<<< HEAD
             <version>0.9.67-SNAPSHOT</version>
+=======
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wakaleo.gameoflife</groupId>
+            <artifactId>gameoflife-webservice</artifactId>
+            <version>${project.version}</version>
+>>>>>>> tmp
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>3.0.2.RELEASE</version>
+            <version>3.0.4.RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>3.0.2.RELEASE</version>
+            <version>3.0.4.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>3.0.2.RELEASE</version>
+            <version>3.0.4.RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>

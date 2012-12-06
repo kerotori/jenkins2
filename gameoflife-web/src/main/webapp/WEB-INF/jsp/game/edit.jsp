@@ -5,6 +5,7 @@
 <%@page import="java.util.Properties" %>
 <html>
 <head>
+<<<<<<< HEAD
     <title>The Game Of Life</title>
     <style type="text/css">
         h2 {
@@ -76,6 +77,11 @@
         }
 
     </style>
+=======
+<title>The Game Of Life</title>
+    <link rel="stylesheet" href="/css/default.css" />
+</style>
+>>>>>>> tmp
 </head>
 <body>
 <h2>The Game!</h2>

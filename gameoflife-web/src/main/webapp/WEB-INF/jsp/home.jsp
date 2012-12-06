@@ -4,6 +4,7 @@
 <%@page import="java.util.Properties" %>
 <html>
 <head>
+<<<<<<< HEAD
     <title>The Game Of Life</title>
     <!--  TODO: Don't inline this -->
     <style type="text/css">
@@ -59,6 +60,10 @@
         }
 
     </style>
+=======
+<title>The Game Of Life</title>
+    <link rel="stylesheet" href="/css/default.css" />
+>>>>>>> tmp
 </head>
 <body>
 <h2>Welcome to Conway's Game Of Life!</h2>
@@ -94,6 +99,10 @@
 <c:url value="/game/new" var="newGamePage"/>
 <div class="action-button">
     <a href="${newGamePage}">New Game</a>
+</div>
+
+<div class="action-button">
+<a href="${newGamePage}">History</a>
 </div>
 
 <%

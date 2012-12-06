@@ -5,7 +5,11 @@
     <parent>
         <artifactId>gameoflife</artifactId>
         <groupId>com.wakaleo.gameoflife</groupId>
+<<<<<<< HEAD:gameoflife-acceptance-tests/pom.xml
         <version>0.9.47-SNAPSHOT</version>
+=======
+        <version>0.8.30-SNAPSHOT</version>
+>>>>>>> tmp:gameoflife-webtests/pom.xml
     </parent>
     <artifactId>gameoflife-acceptance-tests</artifactId>
     <name>gameoflife-acceptance-tests</name>
@@ -146,6 +150,30 @@
             <properties>
                 <webdriver.base.url>http://gameoflife.thucydides.cloudbees.net/</webdriver.base.url>
                 <webdriver.driver>firefox</webdriver.driver>
+            </properties>
+        </profile>
+        <profile>
+            <id>development</id>
+            <properties>
+                <webdriver.base.url>http://gameoflife-dev.thucydides.cloudbees.net/</webdriver.base.url>
+            </properties>
+        </profile>
+        <profile>
+            <id>integration</id>
+            <properties>
+                <webdriver.base.url>http://gameoflife-integration.thucydides.cloudbees.net/</webdriver.base.url>
+            </properties>
+        </profile>
+        <profile>
+            <id>staging</id>
+            <properties>
+                <webdriver.base.url>http://gameoflife-staging.thucydides.cloudbees.net/</webdriver.base.url>
+            </properties>
+        </profile>
+        <profile>
+            <id>production</id>
+            <properties>
+                <webdriver.base.url>http://gameoflife.thucydides.cloudbees.net/</webdriver.base.url>
             </properties>
         </profile>
     </profiles>
